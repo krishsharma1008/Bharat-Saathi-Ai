@@ -1,0 +1,18 @@
+/* 1. Tailwind base, components & utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. Your overrides for dark scrollbars, input, buttons, etc. */
+
+/* Dark scrollbar in chat window */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.2);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(255,255,255,0.3);
+}
